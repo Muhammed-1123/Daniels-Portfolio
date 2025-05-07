@@ -166,7 +166,8 @@ nav {
 /* ====> Start Header <===== */
 .header {
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65)), url("../imgs/bg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65));
+    background-image: url("../imgs/bg.jpg");
     background-size: cover;
     background-position: 0px 0px;
     position: relative;
