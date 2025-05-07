@@ -1,0 +1,62 @@
+/* ====> animation to change text <===== */
+@keyframes character {
+    0%, 33% {
+        content: "Larry Daniels";
+    }
+    34%, 66% {
+        content: "Developer";
+    }
+    67%, 100% {
+        content: "Designer";
+    }
+}
+/* ====> End animation to change text <===== */
+
+/* ====> animation Typing  <===== */
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    20% {
+        width: 10.5ch;
+    }
+    25% {
+        width: 10.5ch;
+    }
+    33% {
+        width: 0;
+    }
+    54% {
+        width: 8.2ch;
+    }
+    59% {
+        width: 8.2ch;
+    }
+    66% {
+        width: 0;
+    }
+    86% {
+        width: 7.4ch;
+    }
+    91% {
+        width: 7.4ch;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+/* ====> End animation Typing  <===== */
+
+/* ====> animation cursor  <===== */
+@keyframes cursor {
+    0%, 100% {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #fff;
+    }
+}
+
+/* ====> End animation cursor  <===== */
+

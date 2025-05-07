@@ -1,0 +1,73 @@
+/* ====> Start Media Query <===== */
+/* small screen */
+@media (max-width: 540px){
+    .header .hero-heading {
+        font-size: 2rem;
+        line-height: 1.2;
+        font-weight: 200;
+    }
+}
+
+
+
+
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1160px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    /* ====> Start Header <===== */
+
+    /* ====> Start navbar <===== */
+    
+    .navbar-collapse {
+        margin-top: 10px;
+        transform: translateY(0px);
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .navbar-collapse.show {
+        transform: translateY(10);
+    }
+    
+    .navbar-collapse {
+        transform: translateY(10);
+    }
+    
+    .navbar-collapse .navbar-nav {
+        background-color: #fff;
+    }
+    .navbar-collapse .navbar-nav li {
+        padding-top: 10px !important;
+    }
+
+    .navbar-collapse .navbar-nav>li a {
+        width: fit-content;
+        margin: auto;
+        color: var(--main-color);
+    }
+
+    .navbar-collapse .navbar-nav>li a.active::after {
+        width: 50px;
+        background-color: var(--main-color);
+    }
+    
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+        --bs-navbar-active-color: #000000;
+        
+        color: var(--bs-navbar-active-color);
+    }
+    /* =====> End navbar <===== */
+
+
+    /* =====> End Header <===== */
+
+}
