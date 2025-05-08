@@ -267,10 +267,6 @@ nav {
     border-color: var(--main-color) !important;
 }
 
-.about .about-content .btns a :last-child {
-    background-color: var(--main-color) !important;
-    color: #fff !important;
-}
 .about .about-content .btns a:hover:last-child {
     background-color: var(--main-color) !important;
     color: #fff !important;
